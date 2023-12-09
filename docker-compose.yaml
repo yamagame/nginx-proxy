@@ -3,10 +3,10 @@ services:
   raspi:
     build: ./nginx-raspi/
     ports:
-      - "3080:3090"
+      - "3090:3090"
       - "4000:4000"
   nginx:
     build: ./nginx-osx/
     ports:
-      - "3080:3090"
-      - "4000:4010"
+      - "3090:3090"
+      - "4000:4000"
